@@ -2,6 +2,8 @@
 
 A Python script for automatically detecting and replacing personally identifiable information (PII) in markdown files with anonymized placeholders.
 
+**Repository**: [https://github.com/overlobe/dePii](https://github.com/overlobe/dePii)
+
 ## Features
 
 - **Filename-Based Replacement**: Uses the source filename to create consistent, traceable placeholders
@@ -17,8 +19,9 @@ A Python script for automatically detecting and replacing personally identifiabl
 
 ### Quick Start
 ```bash
-# Clone or download the script
-wget https://raw.githubusercontent.com/your-repo/pii-deidentifier/main/deidentify_pii.py
+# Clone the repository
+git clone https://github.com/overlobe/dePii.git
+cd dePii
 
 # Make executable
 chmod +x deidentify_pii.py
@@ -26,7 +29,7 @@ chmod +x deidentify_pii.py
 
 ### Using pip (if packaged)
 ```bash
-pip install pii-deidentifier
+pip install dePii
 ```
 
 ## Requirements
@@ -115,7 +118,7 @@ The tool uses the filename (without extension) to create consistent, traceable p
 ## File Structure
 
 ```
-pii-deidentifier/
+dePii/
 ├── deidentify_pii.py          # Main script
 ├── README.md                  # This documentation
 ├── requirements.txt           # Python dependencies
@@ -179,8 +182,8 @@ MIT License - see LICENSE file for details
 ## Support
 
 For issues, questions, or contributions:
-- Open an issue on GitHub
-- Email: [your-email@domain.com]
+- Open an issue on [GitHub](https://github.com/overlobe/dePii/issues)
+- Submit a pull request
 
 ## Changelog
 
