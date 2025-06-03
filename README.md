@@ -27,11 +27,6 @@ cd dePii
 chmod +x deidentify_pii.py
 ```
 
-### Using pip (if packaged)
-```bash
-pip install dePii
-```
-
 ## Requirements
 
 - Python 3.6+
